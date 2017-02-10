@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">PizzaOrder</string>
     <string name="small_pizza">Small Pizza</string>
+    <string name="mediumpizza">MediumPizza</string>
+    <string name="large_pizza">Large Pizza</string>
+
+    <string-array name="Toppings">
+        <item>No toppings</item>
+        <item>Pepperoni</item>
+        <item>Sausage</item>
+        <item>pineapple</item>
+        <item>Peppers</item>
+    </string-array>
 </resources>

@@ -23,20 +23,33 @@
             android:layout_weight="1" />
 
         <RadioButton
-            android:text="MediumPizza"
+            android:text="@string/mediumpizza"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radioButtonMedium"
             android:layout_weight="1" />
 
         <RadioButton
-            android:text="Large Pizza"
+            android:text="@string/large_pizza"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radioButtonLarge"
             android:layout_weight="1" />
 
     </RadioGroup>
+
+    <TextView
+        android:text="Toppings:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/Toppings" />
 
     <CheckBox
         android:text="CheckBoxExtraCheese"
@@ -69,6 +82,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textViewStatus" />
+
+
+
 
 
 </LinearLayout>
